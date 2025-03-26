@@ -10,9 +10,9 @@
       "editorWhitespace.foreground": "#FFB6C1",
       "editorIndentGuide.background": "#FFB6C1",
       "activityBar.background": "#FF7F50",
-      "sideBar.background": "#5D3A3A",
+      "sideBar.background": "#76dde6",
       "statusBar.background": "#FF9900",
-      "tab.activeBackground": "#FF69B4",
+      "tab.activeBackground": "#93463c",
       "tab.inactiveBackground": "#5D3A3A"
     },
     "tokenColors": [
@@ -22,7 +22,7 @@
       {"scope": ["keyword"], "settings": {"foreground": "#FF69B4", "fontStyle": "bold"}},
       {"scope": ["variable"], "settings": {"foreground": "#00CED1"}},
       {"scope": ["storage.type"], "settings": {"foreground": "#FFA500"}},
-      {"scope": ["entity.name.function"], "settings": {"foreground": "#FF4500"}},
+      {"scope": ["entity.name.function"], "settings": {"foreground": "#dc8400"}},
       {"scope": ["entity.name.class"], "settings": {"foreground": "#FF00FF", "fontStyle": "bold"}},
       {"scope": ["meta.embedded"], "settings": {"foreground": "#ADFF2F"}},
       {"scope": ["invalid"], "settings": {"foreground": "#FFFFFF", "background": "#FF0000"}}
