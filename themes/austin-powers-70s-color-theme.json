@@ -1,0 +1,30 @@
+{
+    "name": "Austin Powers Groovy",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#251a1d",
+      "editor.foreground": "#FFD7A0",
+      "editor.selectionBackground": "#FF69B4",
+      "editor.lineHighlightBackground": "#3B2F32",
+      "editorCursor.foreground": "#FF9900",
+      "editorWhitespace.foreground": "#FFB6C1",
+      "editorIndentGuide.background": "#FFB6C1",
+      "activityBar.background": "#FF7F50",
+      "sideBar.background": "#5D3A3A",
+      "statusBar.background": "#FF9900",
+      "tab.activeBackground": "#FF69B4",
+      "tab.inactiveBackground": "#5D3A3A"
+    },
+    "tokenColors": [
+      {"scope": ["comment", "punctuation.definition.comment"], "settings": {"foreground": "#FFB6C1", "fontStyle": "italic"}},
+      {"scope": ["string"], "settings": {"foreground": "#32CD32"}},
+      {"scope": ["constant.numeric"], "settings": {"foreground": "#FFCC00"}},
+      {"scope": ["keyword"], "settings": {"foreground": "#FF69B4", "fontStyle": "bold"}},
+      {"scope": ["variable"], "settings": {"foreground": "#00CED1"}},
+      {"scope": ["storage.type"], "settings": {"foreground": "#FFA500"}},
+      {"scope": ["entity.name.function"], "settings": {"foreground": "#FF4500"}},
+      {"scope": ["entity.name.class"], "settings": {"foreground": "#FF00FF", "fontStyle": "bold"}},
+      {"scope": ["meta.embedded"], "settings": {"foreground": "#ADFF2F"}},
+      {"scope": ["invalid"], "settings": {"foreground": "#FFFFFF", "background": "#FF0000"}}
+    ]
+  }

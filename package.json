@@ -1,0 +1,26 @@
+{
+  "name": "austin-groovy",
+  "displayName": "Austin Groovy",
+  "description": "Theme inspired by Austin Powers",
+  "version": "1.0.1",
+  "publisher": "tjedor",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Austin Powers Groovy",
+        "uiTheme": "vs-dark",
+        "path": "themes/austin-powers-groovy-70s-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjedor/austin-groovy"
+  }
+}
