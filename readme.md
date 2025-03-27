@@ -1,4 +1,11 @@
-#OH Behave!
+##OH Behave!
+
+Have Austin Powers compliment you every time you save a file.
+After installation hit cmd + shift + p and run
+
+```Play Austin Powers Save Sound
+
+```
 
 ## Recommended Font
 

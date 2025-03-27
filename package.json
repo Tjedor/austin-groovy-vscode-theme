@@ -2,7 +2,7 @@
   "name": "austin-groovy",
   "displayName": "Austin Groovy",
   "description": "Theme inspired by Austin Powers",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "publisher": "tjedor",
   "engines": {
     "vscode": "^1.50.0"
@@ -10,18 +10,42 @@
   "categories": [
     "Themes"
   ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:austinGroovy.playSaveSound",
+    "onStartupFinished"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "Austin Powers Groovy",
+        "label": "Ivana Humpalot",
         "uiTheme": "vs-dark",
         "path": "themes/austin-powers-groovy-color-theme.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "austinGroovy.playSaveSound",
+        "title": "Play Austin Powers Save Sound"
+      }
+    ],
+    "configuration": {
+      "title": "Austin Groovy Settings",
+      "properties": {
+        "austinGroovy.enableSaveSound": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable sound effects on file save. After enabling, hit cmd + shift + p and run the command called Play Austin Powers Save Sound"
+        }
+      }
+    }
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/tjedor/austin-groovy"
   },
-  "icon": "images/icon.png"
+  "icon": "images/icon.png",
+  "dependencies": {
+    "play-sound": "^1.1.6"
+  }
 }

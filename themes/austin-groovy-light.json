@@ -1,0 +1,45 @@
+{
+  "name": "Austin Powers Groovy Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F8E6D3",
+    "editor.foreground": "#3B2F32",
+    "editor.selectionBackground": "#FF69B4",
+    "editor.lineHighlightBackground": "#FFB6C1",
+    "editorCursor.foreground": "#FF9900",
+    "editorWhitespace.foreground": "#FF7F50",
+    "editorIndentGuide.background": "#FF7F50",
+    "activityBar.background": "#FF6347",
+    "sideBar.background": "#F1D0B8",
+    "statusBar.background": "#FF8C00",
+    "tab.activeBackground": "#FF6347",
+    "tab.inactiveBackground": "#FFB6C1"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#6AC56A", "fontStyle": "italic" }
+    },
+    { "scope": ["string"], "settings": { "foreground": "#FF69B4" } },
+    { "scope": ["constant.numeric"], "settings": { "foreground": "#FFCC00" } },
+    {
+      "scope": ["keyword"],
+      "settings": { "foreground": "#FF00FF", "fontStyle": "bold" }
+    },
+    { "scope": ["variable"], "settings": { "foreground": "#00CED1" } },
+    { "scope": ["storage.type"], "settings": { "foreground": "#FFA500" } },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#dc8400" }
+    },
+    {
+      "scope": ["entity.name.class"],
+      "settings": { "foreground": "#FF00FF", "fontStyle": "bold" }
+    },
+    { "scope": ["meta.embedded"], "settings": { "foreground": "#ADFF2F" } },
+    {
+      "scope": ["invalid"],
+      "settings": { "foreground": "#fbc70c", "background": "#FF0000" }
+    }
+  ]
+}
