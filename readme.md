@@ -1,6 +1,6 @@
 ## OH Behave!
 
-Have Austin Powers compliment you every time you save a file.
+Have Austin Powers compliment you every time you save a file. Also enjoy a very groovy theme.
 
 ## Recommended Font
 
