@@ -2,7 +2,7 @@
   "name": "austin-groovy",
   "displayName": "Austin Groovy",
   "description": "Theme inspired by Austin Powers",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "publisher": "tjedor",
   "engines": {
     "vscode": "^1.50.0"
